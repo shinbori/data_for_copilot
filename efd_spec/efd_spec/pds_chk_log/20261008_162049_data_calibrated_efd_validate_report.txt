@@ -1,0 +1,50 @@
+
+PDS Validate Tool Report
+
+Configuration:
+   Version      4.2.0
+   Date         2026-10-08T07:20:56Z
+   CLI args     --target /var/www/html/data/chs/satellite/mmo/pds4/bc_mmo_pwi/data_calibrated_efd/data_calibrated_efd.lblx
+
+Parameters:
+   Targets                      [file:/var/www/html/data/chs/satellite/mmo/pds4/bc_mmo_pwi/data_calibrated_efd/data_calibrated_efd.lblx]
+   Severity Level               WARNING
+   Recurse Directories          true
+   File Filters Used            [*.xml, *.XML]
+   Data Content Validation      on
+   Product Level Validation     on
+   Max Errors                   100000
+   Registered Contexts File     /home/miosc/mio-sc/local/pds/validate/resources/registered_context_products.json
+
+
+
+Product Level Validation Results
+
+  FAIL: file:/var/www/html/data/chs/satellite/mmo/pds4/bc_mmo_pwi/data_calibrated_efd/data_calibrated_efd.lblx (urn:jaxa:darts:bc_mmo_pwi:data_calibrated_efd::1.0)
+      ERROR  [error.label.bad_extension]   Label file name extension does not match expected extension. '.xml' is checked by default, and '.lblx' can be specified using the --label-extension flag.
+        1 product validation(s) completed
+
+Summary:
+
+  1 product(s)
+  1 error(s)
+  0 warning(s)
+
+  Product Validation Summary:
+    0          product(s) passed
+    1          product(s) failed
+    0          product(s) skipped
+    1          product(s) total
+
+  Referential Integrity Check Summary:
+    0          check(s) passed
+    0          check(s) failed
+    0          check(s) skipped
+    0          check(s) total
+
+  Message Types:
+    1            error.label.bad_extension
+
+End of Report
+Completed execution in 6508 ms
+

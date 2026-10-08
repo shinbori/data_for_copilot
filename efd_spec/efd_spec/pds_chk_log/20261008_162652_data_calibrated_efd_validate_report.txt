@@ -1,0 +1,47 @@
+
+PDS Validate Tool Report
+
+Configuration:
+   Version      4.2.0
+   Date         2026-10-08T07:26:55Z
+   CLI args     --target /var/www/html/data/chs/satellite/mmo/pds4/bc_mmo_pwi/data_calibrated_efd/data_calibrated_efd.lblx --label-extension lblx
+
+Parameters:
+   Targets                      [file:/var/www/html/data/chs/satellite/mmo/pds4/bc_mmo_pwi/data_calibrated_efd/data_calibrated_efd.lblx]
+   Severity Level               WARNING
+   Recurse Directories          true
+   File Filters Used            [*.lblx, *.LBLX]
+   Data Content Validation      on
+   Product Level Validation     on
+   Max Errors                   100000
+   Registered Contexts File     /home/miosc/mio-sc/local/pds/validate/resources/registered_context_products.json
+
+
+
+Product Level Validation Results
+
+  PASS: file:/var/www/html/data/chs/satellite/mmo/pds4/bc_mmo_pwi/data_calibrated_efd/data_calibrated_efd.lblx (urn:jaxa:darts:bc_mmo_pwi:data_calibrated_efd::1.0)
+        1 product validation(s) completed
+
+Summary:
+
+  1 product(s)
+  0 error(s)
+  0 warning(s)
+
+  Product Validation Summary:
+    1          product(s) passed
+    0          product(s) failed
+    0          product(s) skipped
+    1          product(s) total
+
+  Referential Integrity Check Summary:
+    0          check(s) passed
+    0          check(s) failed
+    0          check(s) skipped
+    0          check(s) total
+
+
+End of Report
+Completed execution in 3797 ms
+
